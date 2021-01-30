@@ -442,7 +442,7 @@ input {
   height: 30px;
   position: relative;
   border: 4px solid #Fff;
-  animation: loader 4s infinite ease;
+  animation: loader 2s infinite ease;
 }
 .loader-inner {
   vertical-align: top;
