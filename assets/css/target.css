@@ -1,0 +1,318 @@
+.home-banner {
+  background: url("../images/PMP.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.investors-banner {
+  background: url("../images/documents.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.products-banner {
+  background: url("../images/contact.webp");
+  background-size: cover;
+  background-position: center;
+}
+
+.about-banner {
+  background: url("../images/who\ are\ we.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.mission-banner {
+  background: url("../images/links/mission.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.middle-element{
+  text-align: center;
+  margin-top: 70px;
+  padding-left: 6%;
+  padding-right: 6%;
+  margin-bottom: 65px;
+}   
+
+#large-img img{
+  height: 350px;
+  width: 350px;
+  object-fit: cover;
+  border-radius: 100%;
+  margin-bottom: 20px;;
+}
+
+#small-img img{
+  height: 240px;
+  width: 240px;
+  background-color: #023a19;
+  object-fit: cover;
+  border-radius: 100%;
+  margin-bottom: 20px;
+}
+
+#why-invest{
+  margin-top: 80px;
+}
+
+.why-invest-caption {
+  font-size: 1.75vw;
+  position: absolute;
+  top: 18%;
+  right: 100px;
+  line-height: 110%;
+}
+
+#get-started{
+  margin-top: 60px;
+  text-align: center;
+  line-height: 200%;
+}
+
+#get-started button{
+  margin-top: 20px;
+  margin-bottom: 80px;
+  width: 330px;
+  height: 87px;
+  font-size: 37px;
+  background-color: #023a19;
+  border-radius: 16px;
+}
+
+#laptop-content{
+  background-color: rgba(34, 76, 154, 0.02);
+  padding-left: calc(0px + 9vw);
+  padding-right: 16%;
+  padding-bottom: 30px;
+}
+
+.laptop-text{
+  position: relative;
+  top: 10%;
+}
+
+#get-started-sm button{
+  margin-top: 20px;   
+  margin-bottom: 80px;
+  width: 260px;
+  height: 60px;
+  font-size: 22px;
+  letter-spacing: 0.16px;
+  background-color: rgba(3, 120, 83, 1);
+  border-radius: 12px;
+  border-style: none;
+}
+
+.laptop-text ol {
+  list-style: none;
+  counter-reset: myVar;
+}
+.laptop-text ol li {
+  counter-increment: myVar;
+  margin: 30px 0;
+}
+
+.laptop-text ol li:hover{
+  font-weight: bold;
+  cursor: pointer;
+  font-size: inherit;
+}
+
+.laptop-text ol li::before {
+  content: counter(myVar) ;
+  color: rgba(28, 153, 137, 1);
+  font-family: Avenir-Black;
+  font-size: 18px;
+  background-color: rgba(3, 120, 83, 0.1);
+  border-radius: 100%;
+  padding: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right: 15px;
+  margin-left: -40px;
+}
+
+#products-text-content {
+  position: absolute;
+  top: 15%;
+  left: 4%;   
+}
+
+#cf7 {
+  position:relative;
+  margin-bottom: 80px;
+  margin-top: 160px;
+}
+
+#cf7 img {
+  position: absolute; 
+  transition: all 1s ease-out;
+  opacity:0;
+}
+
+#cf7 img.opaque {
+  opacity:1;
+}
+
+#homepage-banner-text{
+  top: 50%;
+}
+
+#products-banner-text{
+  top: 40%;
+}
+
+#investors-banner-text{
+  top: 35%;
+}
+
+#about-us-banner-text{
+  top: 40%;
+}
+
+.middle-element-products{
+  padding-top: 4%;
+  padding-left: 8.5%;
+  padding-right: 8.5%;
+  padding-bottom: 4%;
+}  
+
+.bg-color {
+  background: rgba(34, 76, 154, 0.02);
+}
+
+#non-export-header{
+  text-align: center;
+  margin-bottom: 1%;
+}
+
+#non-export-text {
+  font-size: 27px;
+  text-align: left;
+  letter-spacing: 1.5x;
+  margin-bottom: 4%;
+}
+
+.card-deck {
+  margin-bottom: 2%;
+  text-align: left;
+  text-justify: inter-character;
+}
+
+.card-lg{
+  border: 1px solid #ECEFF5;;
+  height: 220px;
+  border-radius: 25px;
+  font-size: 20px;
+  opacity: 0.8;
+  padding: 0.8%;
+  line-height: 165%;
+}
+
+.card-sm {
+  border: 1px solid #ECEFF5;;
+  height: 300px;
+  border-radius: 35px;
+  font-size:  1.2vw;
+  opacity: 0.9;
+  padding: 0.8%;
+  line-height: 165%;
+}
+
+.card-sm img {
+  width: 155px;
+  height: 155px;
+  position: relative;
+  border-radius: 50%;
+  /* background: #FFFFFF; */
+  box-shadow: 10px #00000012;
+  z-index: 5;
+  border: 1px solid white;
+  margin-top: -110px;
+  margin-left: -25px;
+  /* -webkit-border-radius: 50px;
+-moz-border-radius: 50px; */
+  /* overflow: hidden;
+  white-space: nowrap;
+  display: inline-block; */
+  /* vertical-align: middle; */
+}
+
+.card-sm-text {
+  position: relative;
+  /* top: -45%; */
+  padding-left: 7%;
+}
+
+#advantage-header{
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+
+.icon-bar img {
+  display:block;
+  margin: auto;
+  width: 120px;
+  height: 120px;   
+  margin-bottom: 10%;
+}
+
+#resize-img img{
+  width: 80px;
+  height: 80px;  
+  margin-bottom: 20%;
+  margin-top: 5%;
+}
+
+.middle-element-icons{
+  padding-top: 4%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 4%;
+}  
+
+#investors-middle-element {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+#investors-middle-element img{
+  width: 100%;
+  height: auto;
+}
+
+#card-bottom-margin {
+  margin-bottom: 8%;
+}
+
+#founders img {
+  height: 380px;
+  width: 380px;
+}
+
+.about-us-card .card{
+  height: 350px;
+  border: none;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+}
+
+.about-us-card .card-text{
+  margin-left: 5%;
+  margin-top: 2%;
+}
+
+#handshake-image {
+  background: url("../images/vision.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#mission-image {
+  background: url("../images/mission.jpg");
+  background-size: cover;
+  background-position: center;
+}
